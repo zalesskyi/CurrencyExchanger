@@ -87,7 +87,6 @@ class MainViewModelImpl @Inject constructor(
         currentUserSelection: MainScreenContract.UserSelectionState,
         errorState: MainScreenContract.ErrorState
     ): MainScreenContract.DisplayState {
-        return MainScreenContract.DisplayState.Error
         return exchangeRatesResult.getOrNull()?.let { exchangeRates ->
             val receiveAmount = calculateConversionAmount(
                 currentUserSelection = currentUserSelection,
