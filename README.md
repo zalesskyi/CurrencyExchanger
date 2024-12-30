@@ -2,6 +2,9 @@
 
 Test task based on [requirements](https://gist.github.com/PayseraGithub/fbee2c2398c7e464174d149833e1f7eb)
 
+## Unit tests
+Added unit tests to core logic components: [Path](domain/src/test/java/com/example/currencyexchanger)
+
 ## Screenshots
 
 | Main Screen                          |
