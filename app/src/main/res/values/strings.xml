@@ -6,6 +6,7 @@
     <string name="sell">Sell</string>
 
     <string name="err_not_enough_funds">Not enough funds</string>
+    <string name="err_invalid_amount">Invalid amount</string>
     <string name="submit">SUBMIT</string>
     <string name="currency_exchange">CURRENCY EXCHANGE</string>
     <string name="my_balances">MY BALANCES</string>

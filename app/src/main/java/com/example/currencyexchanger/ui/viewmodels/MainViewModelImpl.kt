@@ -246,6 +246,9 @@ class MainViewModelImpl @Inject constructor(
         sellCurrency: Currency,
         currentBalance: Balances
     ): Int? {
+        if (amountInSellCurrencyWithCommission == 0F) {
+            return R.string.err_invalid_amount
+        }
         currentBalance.items.find { it.currency == sellCurrency }?.amount?.let { currentAmount ->
             if (currentAmount < amountInSellCurrencyWithCommission) {
                 return R.string.err_not_enough_funds
