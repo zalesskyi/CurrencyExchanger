@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Currency Exchanger</string>
+    <string name="back_cd">Back button</string>
+    <string name="currency_converter">Currency converter</string>
+    <string name="receive">Receive</string>
+    <string name="sell">Sell</string>
+
+    <string name="err_not_enough_funds">Not enough funds</string>
+    <string name="submit">SUBMIT</string>
+    <string name="currency_exchange">CURRENCY EXCHANGE</string>
+    <string name="my_balances">MY BALANCES</string>
+    <string name="common_error">Something went wrong. Please try later</string>
+    <string name="currency_converted_title">Currency converted</string>
+    <string name="currency_converted_desc">You have converted %1$s %2$s into %3$s %4$s</string>
+    <string name="currency_converted_with_commission">You have converted %1$s %2$s into %3$s %4$s. Commission fee: %5$s %6$s</string>
+    <string name="done">Done</string>
+</resources>
