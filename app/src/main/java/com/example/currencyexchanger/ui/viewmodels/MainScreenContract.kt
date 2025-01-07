@@ -1,6 +1,8 @@
 package com.example.currencyexchanger.ui.viewmodels
 
 import androidx.annotation.StringRes
+import androidx.compose.runtime.Immutable
+import androidx.compose.runtime.Stable
 import com.example.domain.models.Balances
 import com.example.domain.models.Currency
 import com.example.domain.models.ExchangeRates
@@ -20,6 +22,7 @@ class MainScreenContract {
         /**
          * Represents the loaded content state.
          */
+        @Immutable
         data class Loaded(
             val balances: Balances,
             val availableCurrenciesForCell: List<Currency>,
